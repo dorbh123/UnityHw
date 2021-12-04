@@ -22,6 +22,7 @@ public class Accelerometer : MonoBehaviour
         if (dragging)
         {
             activeColor = Color.red;
+            Debug.Log("rotate");
             if (Input.touchCount==1)
             {
                 Touch screenTouch = Input.GetTouch(0);
